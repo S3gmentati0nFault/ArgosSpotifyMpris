@@ -12,7 +12,14 @@ The following Python library is needed.
 * [pycairo](https://pypi.org/project/pycairo/)
 * [PyGObject](https://pypi.org/project/PyGObject/)
 
-Whenever the `install` script is run the dependencies will be automatically installed starting from the `requirements.in` file.
+Whenever the `install` script is run the dependencies will be automatically installed starting from the `requirements.in` file. The only necessary dependencies installed on the machine will be:
+
+* [libcairo2-dev](https://packages.debian.org/it/sid/libcairo2-dev)
+* [libjpeg-dev](https://libjpeg.sourceforge.net/)
+* [libgif-dev](https://packages.debian.org/sid/libgif-dev)
+* [libgirepository1.0-dev](https://packages.debian.org/sid/libgirepository1.0-dev)
+
+The rest of the python packages will be installed in a virtual environment saved under folder `venv` created during the installation process.
 
 # Screenshots
 ![Taskbar](images/taskbar.png?raw=true)
