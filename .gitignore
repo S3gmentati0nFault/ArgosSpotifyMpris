@@ -1,3 +1,8 @@
 .idea
 .config/
+
+# Don't version the requriements.txt file anymore
+requirements.txt
+
+# Don't version the virtual environment
 venv
